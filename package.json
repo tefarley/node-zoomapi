@@ -1,0 +1,23 @@
+{
+  "name": "zoomapi",
+  "version": "1.0.0",
+  "description": "zoom api testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Teddy Farley",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "node-fetch": "^3.0.0",
+    "request-promise": "^4.2.6"
+  }
+}
